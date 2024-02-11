@@ -49,6 +49,9 @@ python main.py --mode eval --model <MODEL_NAME>
 Replace <MODEL_NAME> with "unet" or "unet_tsc"  or "unet_att" for baseline U-Net, U-Net with Time-shift Convolution or U-Net with Attention respectively. 
 
 ## Repostiory Structure
+```bash
+tree
+```
 ├── main.py                # Main script to run training or evaluation
 ├── models.py              # Defines the supported models
 ├── results                # Spectrogram/Waveform images of input and output
