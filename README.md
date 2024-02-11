@@ -64,6 +64,6 @@ This framework currently supports the following models:
 
 Model1: U-Net Baseline Architecture with Conv2D Layers
 Model2: U-Net + Time-Shift Convolution architecture
-Model2: U-Net + Attention architecture
+Model3: U-Net + Attention architecture
 
 For detailed information on each model, please refer to the models.py file.
