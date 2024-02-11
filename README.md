@@ -50,15 +50,14 @@ Replace <MODEL_NAME> with "unet" or "unet_tsc"  or "unet_att" for baseline U-Net
 
 ## Repostiory Structure
 ```bash
-tree
-```
+.
 ├── main.py                # Main script to run training or evaluation
 ├── models.py              # Defines the supported models
 ├── results                # Spectrogram/Waveform images of input and output
 ├── data                   # Training Data and Evaluation Data
 ├── requirements.txt       # Lists dependencies for the project
 └── README.md              # Documentation for the project
-
+```
 # Supported Models
 
 This framework currently supports the following models:
