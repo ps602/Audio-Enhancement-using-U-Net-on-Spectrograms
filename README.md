@@ -18,8 +18,8 @@ To set up the environment to use this framework, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://your-repo-url.git
-cd your-repo-directory
+git clone https://git@github.com:ps602/Audio-Enhancement-using-U-Net-on-Spectrograms.git
+cd Audio-Enhancement-using-U-Net-on-Spectrograms
 
 # (Optional) Set up a virtual environment
 python -m venv env
@@ -43,7 +43,7 @@ python main.py --method train --model <MODEL_NAME>
 To evaluate a model on the test set, use:
 
 ```bash
-python main.py --mode eval --model <MODEL_NAME>
+python main.py --method eval --model <MODEL_NAME>
 ```
 
 Replace <MODEL_NAME> with "unet" or "unet_tsc"  or "unet_att" for baseline U-Net, U-Net with Time-shift Convolution or U-Net with Attention respectively. 
